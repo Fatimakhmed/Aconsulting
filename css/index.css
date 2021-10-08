@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-5000;
+}
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.navbar{
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.icons i{
+    margin:4px;
+    color: #fff;
+}
+.title{
+    text-align: center;
+    color: #fff;
+    margin-top:80px;
+    
+}
+.title h1{
+    margin: 20px;
+}
